@@ -1,0 +1,364 @@
+@charset "UTF-8";
+html {
+    box-sizing: border-box;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    width: 1900px;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+    background: repeating-linear-gradient(
+        to right,
+        #c0eedc,
+        #c0eedc 120px,
+        #fbf0e6 120px,
+        #fbf0e6 240px,
+        #e9d5e7 240px,
+        #e9d5e7 360px,
+        #ffe4eb 360px,
+        #ffe4eb 480px
+    );
+    background-size: 960px;
+    margin: 0;
+    overflow-y: scroll;
+}
+nav, footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(90, 38, 38);
+    padding: .5em;
+    margin: 0;
+    width: 100.2%;
+}
+.canopy {
+    height: 80px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    bottom: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: repeating-linear-gradient(
+        to right,
+        #c0eedc,
+        #c0eedc 40px,
+        #fbf0e6 40px,
+        #fbf0e6 80px,
+        #e9d5e7 80px,
+        #e9d5e7 120px,
+        #ffe4eb 120px,
+        #ffe4eb 160px
+    );
+}
+nav ul li a:link, nav ul li a:visited {
+    color: rgb(255, 155, 115)
+}
+nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
+    background-color: bisque;
+    color: rgb(90, 38, 38);
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+nav ul li a {
+    display: block;
+    border: 1px solid;
+    border-radius: .5em;
+    padding: .5em 1em;
+    margin: 1em;
+    text-decoration: none;
+}
+header h1 {
+    color: rgb(90, 38, 38);
+    text-align: center;
+    margin: 1.75em;
+    font-size: 3em;
+    text-transform: uppercase;
+    top: 15%;
+}
+header p {
+    color: rgb(90, 38, 38);
+    text-align: center;
+    text-transform: none;
+    display: flex;
+    font-size: large;
+    position: relative;
+    align-items: center;
+    font-size: 1.75em;
+    font-weight: bold;
+    margin: 30px;
+    top: 45px;
+}
+.icecreams {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 51px;
+    margin: 0;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    width: 95.5%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icecreams h1 {
+    text-align: center;
+    color: rgb(90, 38, 38);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    font-family: "Notable", sans-serif;
+}
+.iecreams p {
+    text-align: center;
+    text-transform: none;
+    display: flex;
+    font-size: large;
+    position: relative;
+    align-items: center;
+}
+.icecreams img {
+    text-align: center;
+    text-transform: none;
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+}
+main {
+    padding-left: 262.5px;
+}
+main h2 {
+    color: rgb(90, 38, 38);
+    text-align: center;
+    margin: 1.15em;
+    font-size: 2.25em;
+    text-transform: uppercase;
+}
+main p {
+    color: rgb(90, 38, 38);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 1.75em;
+    font-weight: bold;
+    
+}
+.main-content {
+    text-align: left;
+    font-size: larger;
+    text-transform: uppercase;
+    background-color: rgb(255, 241, 218);
+    padding: 85px;
+    padding-left: 80px;
+    margin: 100px;
+    border: 15px solid rgb(90, 38, 38);
+    outline: 5px dotted rgb(90, 38, 38);
+    outline-offset: -35px;
+    height: 1200px;
+    width: 1000px;
+    border-radius: 20px;
+    display: inline-block;
+    justify-content: center;
+}
+.main-content h2 {
+    text-align: center;
+    font-family: "Notable", sans-serif;
+}
+.email {
+    text-align: center;
+}
+.email h3 {
+    color: rgb(90, 38, 38);
+    font-size: xx-large;
+    margin-top: 100px;
+}
+.email p {
+    text-align: center;
+    margin-left: 330px;
+    margin-top: -35px;
+}
+.email a {
+    color: rgb(255, 79, 138);
+    text-decoration: none;
+}
+.email a:hover {
+    color: rgb(255, 155, 115);
+    text-decoration: none;
+    background-color: rgb(255, 241, 218);
+}
+.phone {
+    text-align: center;
+}
+.phone h3 {
+    color: rgb(90, 38, 38);
+    font-size: xx-large;
+    margin-top: 130px;
+}
+.phone p {
+    text-align: center;
+    margin-left: 390px;
+    margin-top: -35px;
+}
+.phone a {
+    color: rgb(255, 79, 138);
+    text-decoration: none;
+}
+.phone a:hover {
+    color: rgb(255, 155, 115);
+    text-decoration: none;
+    background-color: rgb(255, 241, 218);
+}
+.contact {
+    margin-top: 200px;
+}
+fieldset ul li {
+    list-style-type: none;
+}
+fieldset legend {
+    font-weight: bolder;
+    font-size: x-large;
+    color: rgb(90, 38, 38);
+}
+fieldset label {
+    color: rgb(90, 38, 38);
+    text-transform: none;
+    font-weight: bold;
+}
+button[type=submit] {
+    font-family: "Notable", sans-serif;
+    letter-spacing: 2px;
+    color: rgb(255, 155, 115);
+    background-color: rgb(90, 38, 38);
+    padding: 1em;
+    margin: 15px;
+    margin-top: -130px;
+    border-radius: 10px;
+    border-color: rgb(255, 155, 115);
+    cursor: pointer;
+    width: 110px;
+}
+button[type=submit] a {
+    text-decoration: none;
+    color: rgb(255, 155, 115);
+}
+button[type=submit] a:hover, button[type=submit] a:focus{
+    text-decoration: none;
+    color: rgb(90, 38, 38);
+    background: repeating-linear-gradient(
+        to right,
+        #c0eedc,
+        #c0eedc 10px,
+        #fbf0e6 10px,
+        #fbf0e6 20px,
+        #e9d5e7 20px,
+        #e9d5e7 30px,
+        #ffe4eb 30px,
+        #ffe4eb 40px
+    );
+    border-color: rgb(90, 38, 38);
+}
+button[type=submit]:hover {
+    background: repeating-linear-gradient(
+        to right,
+        #c0eedc,
+        #c0eedc 10px,
+        #fbf0e6 10px,
+        #fbf0e6 20px,
+        #e9d5e7 20px,
+        #e9d5e7 30px,
+        #ffe4eb 30px,
+        #ffe4eb 40px
+    );
+    color: rgb(90, 38, 38);
+    border-color: rgb(90, 38, 38);
+}
+.reach {
+    padding: 0px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 300px;
+    height: 220px;
+    width: 1920px;
+}
+.reach p {
+    text-align: center;
+    padding-left: 72vh;
+}
+.reach a {
+    text-align: center;
+    text-decoration: none !important;
+    font-family: "Notable", sans-serif;
+}
+.reach a:link, a:visited {
+    color: rgb(255, 155, 115);
+    background-color: rgb(90, 38, 38);
+    padding: .5em;
+    margin: 0;
+    border-radius: 20px;
+    border: 3px solid rgb(255, 155, 115);
+}
+.reach a:hover, a:active {
+    background-color: bisque;
+    border-color: bisque;
+    color: rgb(90, 38, 38);
+}
+footer {
+    color: rgb(255, 155, 115);
+    grid-area: footer;
+    padding: 2em;
+    text-align: center;
+    font-size: 1em;
+    left: 0;
+    bottom: 0;
+    position: relative;
+    width: 1856.25px;
+}
+footer a {
+    text-align: left;
+    padding-left: 550px;
+    display: block;
+    font-size: large;
+    text-decoration: underline;
+    width: 100px;
+    margin: 5px;
+}
+footer a:link, a:visited {
+    color: rgb(255, 155, 115);
+}
+footer a:hover, a:active {
+    color: white;
+    background-color: rgb(90, 38, 38);
+}
+footer p {
+    bottom: 0;
+    margin-bottom: -100px;
+}
+footer svg {
+    width: 60px;
+    height: 60px;
+    margin-left: 8em;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+footer img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: -150px;
+    margin-right: 70px;
+}
+#logo {
+    position: fixed;
+    top: 90px;
+    left: 60px;
+}
