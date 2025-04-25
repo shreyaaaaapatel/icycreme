@@ -1,0 +1,388 @@
+@charset "UTF-8";
+html {
+    box-sizing: border-box;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    width: 1900px;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+    background: repeating-linear-gradient(
+        to right,
+        #c0eedc,
+        #c0eedc 120px,
+        #fbf0e6 120px,
+        #fbf0e6 240px,
+        #e9d5e7 240px,
+        #e9d5e7 360px,
+        #ffe4eb 360px,
+        #ffe4eb 480px
+    );
+    background-size: 960px;
+    margin: 0;
+    overflow-y: scroll;
+}
+header {
+    background: url(../icycafe/images/icecreamassorted.jpg) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    height: 30em;
+    width: 101.05%;
+}
+header h1 {
+    text-align: center;
+    margin: 2.5em;
+    font-family: "Notable", sans-serif;
+    color: white;
+    font-size: 3em;
+}
+nav, footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(90, 38, 38);
+    padding: .5em;
+    margin: 0;
+    width: 99.1%;
+}
+.canopy {
+    height: 80px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    bottom: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: repeating-linear-gradient(
+        to right,
+        #c0eedc,
+        #c0eedc 40px,
+        #fbf0e6 40px,
+        #fbf0e6 80px,
+        #e9d5e7 80px,
+        #e9d5e7 120px,
+        #ffe4eb 120px,
+        #ffe4eb 160px
+    );
+}
+nav ul li a:link, nav ul li a:visited {
+    color: rgb(255, 155, 115)
+}
+nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
+    background-color: bisque;
+    color: rgb(90, 38, 38);
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+nav ul li a {
+    display: block;
+    border: 1px solid;
+    border-radius: .5em;
+    padding: .5em 1em;
+    margin: 1em;
+    text-decoration: none;
+}
+main h1 {
+    color: rgb(90, 38, 38);
+    text-align: center;
+    margin: 1.75em;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: "Notable", sans-serif;
+}
+main p {
+    color: rgb(90, 38, 38);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 1.75em;
+    font-weight: bold;
+    
+}
+.main-content {
+    text-align: center;
+    background-color: rgb(255, 252, 247);
+    padding: 50px;
+    border: 2px solid rgb(255, 252, 247);
+    width: 95.5%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-content h2 {
+    text-align: center;
+    color: rgb(90, 38, 38);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 95%;
+    font-family: "Notable", sans-serif;
+}
+.main-content p {
+    text-align: center;
+    text-transform: none;
+    display: flex;
+    font-size: large;
+    position: relative;
+    align-items: center;
+    margin: 30px;
+    top: -80px;
+}
+.main-content img {
+    text-align: center;
+    text-transform: none;
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    margin: 30px;
+    top: 107.5vh;
+    width: 20.75%;
+    height: 26.75%;
+    border-radius: 20px;
+}
+.menu {
+    text-align: center;
+    font-size: larger;
+    text-transform: uppercase;
+    background-color: rgb(255, 241, 218);
+    padding: 15px;
+    margin: 30px;
+    border: 2px solid rgb(255, 241, 218);
+    width: 50vh;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+
+    &:hover {
+        background-color: #e9d5e7;
+        border: 2px solid #e9d5e7;
+    }
+
+}
+.main-content a:active {
+    background-color: rgb(255, 252, 247);
+}
+.about {
+    text-align: center;
+    font-size: larger;
+    text-transform: uppercase;
+    background-color: rgb(255, 241, 218);
+    padding: 15px;
+    margin: 30px;
+    border: 2px solid rgb(255, 241, 218);
+    width: 50vh;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+
+    &:hover {
+        background-color: #ffe4eb;
+        border: 2px solid #ffe4eb;
+    }
+
+}
+.location {
+    text-align: center;
+    font-size: larger;
+    text-transform: uppercase;
+    background-color: rgb(255, 241, 218);
+    padding: 15px;
+    margin: 30px;
+    border: 2px solid rgb(255, 241, 218);
+    width: 50vh;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+
+    &:hover {
+        background-color: #c0eedc;
+        border: 2px solid #c0eedc;
+    }
+}
+a {
+    text-decoration: none;
+}
+.specials {
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 600px;
+    width: 101%;
+
+}
+.specials h2 {
+    font-family: "Notable", sans-serif;
+    font-size: 2em;
+    color: rgb(90, 38, 38);
+    text-align: center;
+    margin: 5px;
+    margin-left: 1000px;
+    margin-right: 100px;
+    margin-bottom: 150px;
+    margin-top: -320px;
+}
+.specials p {
+    text-align: center;
+    margin: 5px;
+    margin-left: 1000px;
+    margin-right: 100px;
+    line-height: 55px;
+    margin-top: -100px;
+}
+.specials img {
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: -200px;
+    height: 95%;
+}
+.check-out a {
+    color: rgb(255, 79, 138);
+    background-color: rgba(255, 255, 255, 0);
+}
+.check-out a:hover {
+    color: rgb(255, 155, 115);
+    background-color: rgba(255, 255, 255, 0);
+}
+.menu-button a {
+    margin-left: 890px;
+    color: rgb(90, 38, 38);
+    background-color: bisque;
+    padding: .5em;
+    border-radius: 20px;
+    border: 3px solid bisque;
+}
+.menu-button a:hover {
+    color: rgb(255, 155, 115);
+    background-color: rgb(90, 38, 38);
+    border: 3px solid rgb(255, 155, 115);
+}
+.order {
+    text-align: center;
+    height: 250px;
+}
+.order h1 {
+    text-align: center;
+    font-size: 3.5em;
+    margin-top: 100px;
+}
+.order p {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 300px;
+    margin-bottom: -20px;
+}
+.order a {
+    text-align: center;
+    color: rgb(255, 155, 115);
+    background-color: rgb(90, 38, 38);
+    padding: .5em;
+    margin: 0;
+    border-radius: 20px;
+    border: 5px solid rgb(90, 38, 38);
+}
+.order a:hover {
+    color: rgb(90, 38, 38);
+    background: repeating-linear-gradient(
+        to right,
+        #c0eedc,
+        #c0eedc 20px,
+        #fbf0e6 20px,
+        #fbf0e6 40px,
+        #e9d5e7 40px,
+        #e9d5e7 60px,
+        #ffe4eb 60px,
+        #ffe4eb 80px
+    );
+    border: 5px solid rgb(90, 38, 38);
+}
+.reach {
+    padding: 25px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 300px;
+    height: 220px;
+    width: 1870px;
+}
+.reach p {
+    text-align: center;
+    padding-left: 2vh;
+}
+.reach a {
+    text-align: center;
+    text-decoration: none !important;
+}
+.reach a:link, a:visited {
+    color: rgb(255, 155, 115);
+    background-color: rgb(90, 38, 38);
+    padding: .5em;
+    margin: 0;
+    border-radius: 20px;
+    border: 3px solid rgb(255, 155, 115);
+}
+.reach a:hover, a:active {
+    background-color: bisque;
+    border-color: bisque;
+    color: rgb(90, 38, 38);
+}
+footer {
+    color: rgb(255, 155, 115);
+    grid-area: footer;
+    padding: 2em;
+    text-align: center;
+    font-size: 1em;
+    left: 0;
+    bottom: 0;
+    position: relative;
+    width: 1856.25px;
+}
+footer a {
+    text-align: left;
+    padding-left: 550px;
+    display: block;
+    font-size: large;
+    text-decoration: underline;
+    width: 100px;
+    margin: 5px;
+}
+footer a:link, a:visited {
+    color: rgb(255, 155, 115);
+}
+footer a:hover, a:active {
+    color: white;
+    background-color: rgb(90, 38, 38);
+}
+footer p {
+    bottom: 0;
+    margin-bottom: -100px;
+}
+footer svg {
+    width: 60px;
+    height: 60px;
+    margin-left: 8em;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+footer img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: -150px;
+    margin-right: 70px;
+}
+#logo {
+    position: fixed;
+    top: 90px;
+    left: 60px;
+}

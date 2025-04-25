@@ -1,0 +1,77 @@
+button[type=submit] {
+    font-family: "Notable", sans-serif;
+    letter-spacing: 3px;
+    color: rgb(255, 155, 115);
+    background-color: rgb(90, 38, 38);
+    padding: 1em;
+    margin: 15px;
+    margin-top: -130px;
+    border-radius: 10px;
+    border-color: rgb(255, 155, 115);
+    cursor: pointer;
+    width: 110px;
+}
+button[type=submit]:hover {
+    background: repeating-linear-gradient(
+        to right,
+        #c0eedc,
+        #c0eedc 10px,
+        #fbf0e6 10px,
+        #fbf0e6 20px,
+        #e9d5e7 20px,
+        #e9d5e7 30px,
+        #ffe4eb 30px,
+        #ffe4eb 40px
+    );
+    color: rgb(90, 38, 38);
+    border-color: rgb(90, 38, 38);
+}
+button[type=submit] {
+    font-family: "Notable", sans-serif;
+    letter-spacing: 3px;
+    color: rgb(255, 155, 115);
+    background-color: rgb(90, 38, 38);
+    padding: 1em;
+    margin: 15px;
+    margin-top: -130px;
+    border-radius: 10px;
+    border-color: rgb(255, 155, 115);
+    cursor: pointer;
+    width: 110px;
+}
+button[type=submit] a {
+    text-decoration: none;
+    background-color: rgb(90, 38, 38);
+    color: rgb(255, 155, 115);
+}
+button[type=submit] a:hover, button[type=submit] a:focus{
+    text-decoration: none;
+    color: rgb(90, 38, 38);
+    background: repeating-linear-gradient(
+        to right,
+        #c0eedc,
+        #c0eedc 10px,
+        #fbf0e6 10px,
+        #fbf0e6 20px,
+        #e9d5e7 20px,
+        #e9d5e7 30px,
+        #ffe4eb 30px,
+        #ffe4eb 40px
+    );
+    border-color: rgb(90, 38, 38);
+}
+button[type=submit]:hover {
+    background: repeating-linear-gradient(
+        to right,
+        #c0eedc,
+        #c0eedc 10px,
+        #fbf0e6 10px,
+        #fbf0e6 20px,
+        #e9d5e7 20px,
+        #e9d5e7 30px,
+        #ffe4eb 30px,
+        #ffe4eb 40px
+    );
+    color: rgb(90, 38, 38);
+    border-color: rgb(90, 38, 38);
+}
