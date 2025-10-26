@@ -1,2 +1,4 @@
-# Repository for DIG2500C: Fundamentals of Interactive Design
-Creating My Own Fictional Website: Icy Creme
+# Test Repository for DIG3480: Computer As A Medium
+
+Creating A Test Repository To Push As Public
+
